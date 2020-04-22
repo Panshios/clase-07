@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Desigualdad Comunal</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html">Página portada</option>
+            <option value="page.html" selected>Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Repite el encabezado principal de página de portada</a></h1>
+        </header>
+        <section>
+            <h2>Desigualdad en la calidad de vida de las personas</h2>
+            <p>El Índice de Calidad de Vida Urbana mide y compara en términos relativos la calidad de vida urbana de comunas y ciudades en Chile, a partir de un conjunto de variables referidas a seis dimensiones que expresan el estado de situación en la provisión de bienes y servicios públicos y privados a la población residente y sus correspondientes impactos socioterritoriales, tanto a escala de ciudades intermedias como metropolitana.</p>
+            <p>Las 99 comunas evaluadas por el ICVU se distribuyen, según los resultados 2019, en tres rangos: superior, promedio e inferior. :</p>
+            <!-- ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/dl -->
+            <dl>
+                <dt>Rango superior</dt>
+                <dd>Cuando se alcanza un índice por sobre el promedio nacional más media desviación estándar. Puntaje mayor a 58,0.</dd>
+                <dt>Rango promedio</dt>
+                <dd>Cuando se alcanza un índice que está en entre el promedio nacional menos media desviación estándar y el promedio nacional más media desviación estándar. Puntaje entre 50,6 y 58,0.</dd>
+                <dt>Rango inferior</dt>
+                <dd>Cuando se alcanza un índice bajo el promedio nacional menos media desviación estándar. Puntaje menor a 50,6.</dd>
+            </dl>
+            <p>A continuación se enlistan diferentes comunas a lo largo del país, partiendo por vitacura, la comuna con mayor índice ICVU 2019 para comparar</p>
+
+            <table>
+                <tr>
+                    <th>Comuna</th>
+                    <th>Región</th>
+                    <th>ICVU 2019</th>
+                </tr>
+                <tr>
+                    <td>Vitacura</td>
+                    <td>Metropolitana</td>
+                    <td>75,59</td>
+                </tr>
+                <tr>
+                    <td>Iquique</td>
+                    <td>Tarapacá</td>
+                    <td>58,06</td>
+                </tr>
+                <tr>
+                    <td>Estación Central</td>
+                    <td>Metropolitana</td>
+                    <td>49,96</td>
+                </tr>
+                <tr>
+                    <td>Curicó</td>
+                    <td>Maule</td>
+                    <td>54,77</td>
+                </tr>                                               
+                 <tr>
+                    <td>Calama</td>
+                    <td>Antofagasta</td>
+                    <td>57,37</td>
+                </tr> 
+                <tr>
+                    <td>Arica</td>
+                    <td>Arica y Parinacota</td>
+                    <td>51,16</td>
+                </tr>
+                <tr>
+                    <td>Rancagua</td>
+                    <td>O'Higgins</td>
+                    <td>56,64</td>
+                </tr>
+                <tr>
+                    <td>San Javier</td>
+                    <td>Maule</td>
+                    <td>38,11</td>
+                </tr>
+                <tr>
+                    <td>Puente Alto</td>
+                    <td>Metropolitana</td>
+                    <td>48,6</td>
+                </tr>
+                <tr>
+                    <td>San Felipe</td>
+                    <td>Valparaíso</td>
+                    <td>48,52</td>
+                </tr>                                               
+                 <tr>
+                    <td>Chillán</td>
+                    <td>Ñuble</td>
+                    <td>49,85</td>
+                </tr>
+            </table>
+
+            <p>
+                En total 19 comunas alcanzan rango superior, donde residen cerca de 3,3 millones de habitantes.
+                43 comunas se sitúan en de rango promedio, y en ellas habitan casi 6,9 millones de habitantes.
+                37 comunas se ubican en el rango inferior, que agrupa a casi 3,8 millones de habitantes.  <a href="index.html">volver a la página portada</a>.</p>
+
+        </section>
+        <footer>
+            <hr>
+            <p>Nombre Apellido &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>

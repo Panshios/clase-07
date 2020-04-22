@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="style.css">
+    <title>Título más adecuado</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>Página portada</option>
+            <option value="page.html">Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Desigualdad comunal</a></h1>
+            <h3>Por segunda semana, Puente Alto es la comuna con más casos activos</h3>
+            <h5>Carlos Said</h5>
+            <hr>
+        </header>
+        <section>
+            <p>Por segunda semana consecutiva, Puente Alto es la comuna del país con más casos activos de coronavirus, es decir, pacientes que siguen en la fase de contagio. Así lo muestra el décimo informe epidemiológico del Ministerio de Salud, que revela que en esa comuna hay 245 personas infectadas que pueden seguir transmitiendo la enfermedad.</p>
+            <blockquote cite="https://www.cnnchile.com/coronavirus/puente-alto-comuna-casos-activos-coronavirus_20200422/">
+                <p>El documento detalla que la tasa de incidencia acumulada es de 54,0 por 100 mil habitantes, con un total de 10.507 casos a nivel nacional, presentados en el informe en base a la fecha de inicio de síntomas, es decir, el momento de la manifestación clínica de la enfermedad.</p>
+                <footer><a href="https://www.cnnchile.com/coronavirus/puente-alto-comuna-casos-activos-coronavirus_20200422/">CNN Chile</a></footer>
+            </blockquote>
+            <p> Tras Puente Alto se ubican Punta Arenas (181), Santiago (149), Temuco (113), Maipú (108) y San Bernardo (108). Pese a ello, todas estas comunas redujeron su cantidad de casos nuevos en cerca de un 40% entre la semana pasada y antepasada.</p>
+            <h2>Ratio preocupante por coronavirus</h2>
+            <p>Comunas críticas por contagio de coronavirus</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Lorem ipsum dolor sit amet</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor.</p>
+            <figure>
+                <img src="imagen.jpg" alt="Vecinos de puente alto con mascarillas evitando el contagio mientras miran los locales">
+                <figcaption>El uso de mascarillas en la comuna de puente alto</figcaption>
+            </figure>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum malesuada velit pharetra porttitor. Nulla accumsan turpis mollis urna posuere, nec varius justo rhoncus. Vestibulum condimentum sollicitudin tempor. <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Francisco Pezoa &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
